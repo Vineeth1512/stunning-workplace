@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    background-color: #ffffff;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20PX 80PX;
+}
+#stunning-logo{
+    width: 150px ;
+}
+#nav-items a{
+     display: inline-block;
+     padding: 10px 0 px;
+     margin: 0px 20px;
+     color: grey;
+}
+#nav-items a:hover{
+    border-bottom: 3px solid #8071D0;
+    font-weight: bold;
+    color: black;
+
+}
+#header-button{
+    border-width: 0px;
+    background-color: #FFD8DB;
+    color: #A389CC;
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+#main-section{
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+}
+#left-section{
+    width: 40%;
+}
+#right-section{
+    width: 60%;
+}
+#stunning-big-heading{
+    font-size: 70px;
+}
+#new-account-btn{
+    border-width: 0px;
+    background-color: #5243C0;
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 15px;
+
+}
+#new-account-btn-arrows{
+
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+   
+}
+.specification-button{
+    border-width: 0px;
+    /* background-color: pink; */
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+.specification-box{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    background-image : url("./images/tick-gray.png") ;
+    background-repeat: no-repeat;
+    background-position: 15px 20px ;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+ }
+ .specification-box:hover{
+    background-color: white;
+    cursor: pointer;
+    background-image : url("./images/tick-blue.png") ;
+    background-repeat: no-repeat;
+    background-position: 15px 20px ;
+    
+ }
+ 
+.left-specification-section{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ 
+ .right-specification-section{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .date-color{
+    color: grey;
+    font-weight: bold;
+ }
+ .dmm-design-bold{
+    padding: 0px 10px;
+   
+ }
